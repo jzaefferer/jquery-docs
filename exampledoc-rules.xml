@@ -1,0 +1,53 @@
+<entries>
+<entry type='method' name="rules" return="jQuery" plugin="Validation">
+  <signature>
+    <added>1.3</added>
+  </signature>
+  <desc>Compile the contents of the matched element as a reusable compiled template.</desc> 
+
+  <longdesc>
+    <p>Note: For information about how to render templates, see <a href="http://api.jquery.com/tmpl">.tmpl()</a> and <a href="http://api.jquery.com/jquery.tmpl">jQuery.tmpl()</a>.</p>
+   
+<pre><![CDATA[
+  
+]]></pre>
+
+  </longdesc>
+
+  <example height="250">
+    <desc></desc>
+
+  <code><![CDATA[
+
+  ]]></code>
+  <css><![CDATA[
+
+  ]]></css>
+  <html><![CDATA[
+
+  ]]></html>
+  </example>
+</entry>
+<entry type='method' name="rules" return="jQuery" plugin="Validation">
+<signature>
+  <added>1.3</added>
+  <argument name="add" type="String">
+    <desc>A string indicating to add a set of rules.</desc>
+  </argument>
+  <argument name="rules" type="Object">
+    <desc>The rules to add. Accepts the same format as the rules-option of the validate-method</desc>
+  </argument>
+</signature>
+<signature>
+  <added>1.3</added>
+  <argument name="remove" type="String">
+    <desc>A string indicating to remove rules.</desc>
+  </argument>
+  <argument name="rules" type="String" optional="true">
+    <desc>The space-separated names of rules to remove and return. If left unspecified, removes and returns all rules. Manipulates only rules specified by the <code>rules</code> option of the <code>.validate()</code> or <code>.rules("add")</code> method.</desc>
+  </argument>
+</signature>
+<desc><p>something else</p></desc>
+<longdesc><p>a very long description</p></longdesc>
+</entry>
+</entries>

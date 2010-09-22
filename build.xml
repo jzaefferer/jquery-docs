@@ -1,0 +1,8 @@
+<project name="jQuery API" default="transform" basedir=".">
+
+	<target name="transform" description="Transform XML via XSL to HTML">
+		<delete file="*.html" />
+		<xslt includes="*.xml" excludes="build.xml" destdir="." style="entries2html.xsl" />
+	</target>
+	
+</project>
